@@ -1,9 +1,9 @@
 app-id: io.blockloader.BlockLoader
 runtime: org.freedesktop.Platform
-runtime-version: "22.08"
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: "22.08"
+base-version: '22.08'
 command: blockloader
 separate-locales: false
 finish-args:
@@ -25,8 +25,8 @@ modules:
       - install -Dm644 -t /app/share/applications io.blockloader.BlockLoader.desktop
     sources:
       - type: archive
-        url: https://cdn.blockloader.io/releases/linux/x64/BlockLoader-linux-x64-0.5.6.zip
-        sha256: 27a76b9fa249079d7e14537159b81a35b30064b321184bcfbed2a2d650587e75
+        url: https://cdn.blockloader.io/releases/linux/x64/BlockLoader-linux-x64-0.5.7.zip
+        sha256: 875c2bac20d80bc84f2d161519dbded64ecda8ca77d7f2f60320219c57305be1
         strip-components: 0
         x-checker-data:
           type: html
