@@ -25,8 +25,8 @@ modules:
       - install -Dm644 -t /app/share/applications io.blockloader.BlockLoader.desktop
     sources:
       - type: archive
-        url: https://cdn.blockloader.io/releases/linux/x64/BlockLoader-linux-x64-0.5.7.zip
-        sha256: 875c2bac20d80bc84f2d161519dbded64ecda8ca77d7f2f60320219c57305be1
+        url: https://cdn.blockloader.io/releases/linux/x64/BlockLoader-linux-x64-0.5.8.zip
+        sha256: 55c4fb868a7aca25e5c293cb98d1fc77461c5f144a3d7187e2436abd7213f77d
         strip-components: 0
         x-checker-data:
           type: html
