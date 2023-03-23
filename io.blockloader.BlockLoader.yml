@@ -29,6 +29,7 @@ modules:
         sha256: 55c4fb868a7aca25e5c293cb98d1fc77461c5f144a3d7187e2436abd7213f77d
         strip-components: 0
         x-checker-data:
+          is-main-source: true
           type: html
           url: https://blockloader.io
           version-pattern: <span>v([0-9.]+)</span>
