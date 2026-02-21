@@ -1,12 +1,13 @@
 app-id: io.blockloader.BlockLoader
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '22.08'
+base-version: '25.08'
 command: blockloader
 separate-locales: false
 finish-args:
+  - --device=dri
   - --share=ipc
   - --socket=x11
   - --socket=pulseaudio
