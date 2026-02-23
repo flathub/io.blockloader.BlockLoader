@@ -4,3 +4,5 @@ Name=BlockLoader
 Exec=blockloader
 Icon=io.blockloader.BlockLoader
 Type=Application
+Categories=Game;
+Keywords=Mod;Manager;Minecraft;
